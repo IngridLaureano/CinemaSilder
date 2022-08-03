@@ -1,3 +1,12 @@
-# CinemaSilder
+# CinemaSilder 
 
-<iframe src='//gifs.com/embed/gif-gpPXB6' frameborder='0' scrolling='no' width='1476px' height='1080px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+## Projeto original foi feito durante o evento da MapaDev Week do canal Dev em Dobro, mas essa é a minha versão com um tema que eu gosto. 
+
+
+### Nesse projeto foi utilizado:
+- HTML 5
+- CSS 3
+- Javascript
+
+
+<img src="https://github.com/IngridLaureano/CinemaSlider./src/img/img-1.png">
