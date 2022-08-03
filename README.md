@@ -9,4 +9,10 @@
 - Javascript
 
 
-![] (./src/img/img-1.png)
+<img src="https://github.com/IngridLaureano/CinemaSlider./blob/main/src/img/img-1.png" width="500px">
+
+## 
+
+<img src="https://github.com/IngridLaureano/CinemaSlider./blob/b031586a55945fb54a4384db1f7f97a2174c4793/src/img/gif.gif" width="500px">
+
+
