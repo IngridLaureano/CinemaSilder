@@ -9,4 +9,4 @@
 - Javascript
 
 
-<img src="https://github.com/IngridLaureano/CinemaSlider./src/img/img-1.png">
+![https://github.com/IngridLaureano/CinemaSlider./src/img/img-1.png]
