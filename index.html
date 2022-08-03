@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Cinema Slider - MapaDev Week</title>
+
+    <link rel="shortcut icon" href="./src/img/clapperboard.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="header"> 
+        <img class="icone" src="./src/img/clapperboard.png" alt="icone" >
+        <h1 class="titulo">MapaDev Week</h1>
+    </header>
+
+    <main class="cinema-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="./src/img/seta.png" alt="seta voltar">
+        </button>
+        <ul class="lista-filmes">
+
+           <li class="filme selecionado">
+            <div>
+                <img class="imagem-filme" src="./src/img/poster-1.jpg" alt="Bastardos Inglórios">
+            </div>
+            <div class="descricao">
+                <h3 class="titulo">Sinopse</h3>
+                <p class="texto">Durante a Segunda Guerra Mundial, na França, um grupo de judeus americanos conhecidos como Bastardos espalha o terror entre o terceiro Reich. Ao mesmo tempo, Shosanna, uma judia que fugiu dos nazistas, planeja vingança quando um evento em seu cinema reunirá os líderes do partido.</p>
+            </div>
+           </li>
+
+           <li class="filme ">
+            <div>
+                <img class="imagem-filme" src="./src/img/poster-2.jpg" alt="Pulp Fiction">
+            </div>
+            <div class="descricao">
+                <h3 class="titulo">Sinopse</h3>
+                <p class="texto">Um assassino que trabalha para a máfia se apaixona pela esposa de seu chefe quando é convidado a acompanhá-la, um boxeador descumpre sua promessa de perder uma luta e um casal tenta um assalto que rapidamente sai do controle.</p>
+            </div>
+           </li>
+
+           <li class="filme ">
+            <div>
+                <img class="imagem-filme" src="./src/img/poster-5.jpg" alt="Cidade de Deus">
+            </div>
+            <div class="descricao">
+                <h3 class="titulo">Sinopse</h3>
+                <p class="texto">Buscapé é um jovem pobre, negro e sensível, que cresce em um universo de muita violência. Ele vive na Cidade de Deus, favela carioca conhecida por ser um dos locais mais violentos do Rio. Amedrontado com a possibilidade de se tornar um bandido, Buscapé é salvo de seu destino por causa de seu talento como fotógrafo, o qual permite que siga carreira na profissão. É por meio de seu olhar atrás da câmera que ele analisa o dia a dia da favela em que vive, onde a violência aparenta ser infinita.</p>
+            </div>
+           </li>
+
+           <li class="filme ">
+            <div>
+                <img class="imagem-filme" src="./src/img/poster-13.jpg" alt="Advogado do Diabo">
+            </div>
+            <div class="descricao">
+                <h3 class="titulo">Sinopse</h3>
+                <p class="texto">Kevin Lomax, advogado de uma pequena cidade da Flórida que nunca perdeu um caso, é contratado por John Milton, dono da maior firma de advocacia de Nova York. No início tudo parece correr bem, mas Mary Ann, a esposa do advogado, começa a testemunhar aparições demoníacas. Kevin está empenhado em defender o cliente e cada vez dá menos atenção a sua mulher, enquanto seu misterioso chefe parece sempre saber como contornar cada problema e tudo que perturba o jovem advogado.</p>
+            </div>
+           </li>
+           <li class="filme ">
+            <div>
+                <img class="imagem-filme" src="./src/img/poster-6.jpg" alt="Donnie Darko">
+            </div>
+            <div class="descricao">
+                <h3 class="titulo">Sinopse</h3>
+                <p class="texto">Donnie é um jovem excêntrico que despreza a grande maioria de seus colegas de escola. Ele tem visões, em especial de Frank, um coelho gigante que só ele consegue ver e que o encoraja a fazer brincadeiras humilhantes com quem o cerca. Um dia, uma de suas visões o atrai para fora de casa e lhe diz que o mundo acabará dentro de um mês. Donnie inicialmente não acredita, mas, momentos depois, a turbina de um avião cai em sua casa e ele começa a se perguntar qual é o fundo de verdade dessa previsão.</p>
+            </div>
+           </li>
+           <li class="filme ">
+            <div>
+                <img class="imagem-filme" src="./src/img/poster-7.jpg" alt="Harry Potter">
+            </div>
+            <div class="descricao">
+                <h3 class="titulo">Sinopse</h3>
+                <p class="texto">Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente, Harry é impedido de ler a carta por seu tio, mas logo recebe a visita de Hagrid, o guarda-caça de Hogwarts, que chega para levá-lo até a escola. Harry adentra um mundo mágico que jamais imaginara, vivendo diversas aventuras com seus novos amigos, Rony Weasley e Hermione Granger.</p>
+            </div>
+           </li>
+           <li class="filme ">
+            <div>
+                <img class="imagem-filme" src="./src/img/poster-9.jpg" alt="O Profissonal">
+            </div>
+            <div class="descricao">
+                <h3 class="titulo">Sinopse</h3>
+                <p class="texto">Mathilda tem apenas 12 anos de idade mas já conhece o lado obscuro da vida: seu pai abusivo guarda drogas para policiais corruptos e a mãe a negligencia. O vizinho Léon gosta de cuidar de plantas, mas é um assassino de aluguel para o gângster Tony. Quando sua família é assassinada por um agente antidrogas desonesto, Mathilda se une a um relutante Léon para aprender o negócio mortal e vingar a morte da família.</p>
+            </div>
+           </li>
+           <li class="filme ">
+            <div>
+                <img class="imagem-filme" src="./src/img/poster-8.jpg" alt="Deadpool">
+            </div>
+            <div class="descricao">
+                <h3 class="titulo">Sinopse</h3>
+                <p class="texto">Wade Wilson é um ex-agente especial que passou a trabalhar como mercenário. Seu mundo é destruído quando um cientista maligno o tortura e o desfigura completamente. O experimento brutal transforma Wade em Deadpool, que ganha poderes especiais de cura e uma força aprimorada. Com a ajuda de aliados poderosos e um senso de humor mais desbocado e cínico do que nunca, o irreverente anti-herói usa habilidades e métodos violentos para se vingar do homem que quase acabou com a sua vida.</p>
+            </div>
+           </li>
+           <li class="filme ">
+            <div>
+                <img class="imagem-filme" src="./src/img/poster-10.jpg" alt="Amnésia">
+            </div>
+            <div class="descricao">
+                <h3 class="titulo">Sinopse</h3>
+                <p class="texto">Leonard está caçando o homem que estuprou e matou sua esposa. Ele tem dificuldades em encontrar o assassino pois sofre de uma forma intratável de perda de memória. Mesmo que ele possa lembrar detalhes da vida antes do acidente, Leonard não consegue lembrar o que aconteceu quinze minutos atrás, onde está indo ou a razão.</p>
+            </div>
+           </li>
+           <li class="filme ">
+            <div>
+                <img class="imagem-filme" src="./src/img/poster.jpg" alt="O Poderoso Chefão">
+            </div>
+            <div class="descricao">
+                <h3 class="titulo">Sinopse</h3>
+                <p class="texto">Uma família mafiosa luta para estabelecer sua supremacia nos Estados Unidos depois da Segunda Guerra Mundial. Uma tentativa de assassinato deixa o chefão Vito Corleone incapacitado e força os filhos Michael e Sonny a assumir os negócios.</p>
+            </div>
+           </li>
+
+
+           
+        </ul>
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./src/img/seta.png" alt="">
+        </button>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

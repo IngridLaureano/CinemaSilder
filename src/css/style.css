@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: url(../img/pexels-tima-miroshnichenko-7991158.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+   padding-top: 35px; 
+}
+
+.header .icone {
+    width: 40px;
+}
+
+.header .titulo {
+    color: #f1ecff;
+}
+
+ul {
+    list-style: none;
+}
+
+.cinema-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0px;
+}
+
+.lista-filmes {
+    width: 450px;
+    height: 700px;
+    position: relative;
+    display: grid;
+    justify-items: center;
+}
+
+.btn-seta {
+    margin-bottom: 170px;
+    background-color: #f3caca;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 25px 0px;
+}
+
+.btn-seta:hover {
+    background-color: #e4adad91;
+}
+
+.btn-seta.btn-voltar {
+    transform: rotate(180deg);
+} 
+
+.filme {
+    opacity: 0;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 350px;
+    position: absolute;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.filme.selecionado {
+    opacity: 1;
+    z-index: 1;
+}
+
+.filme .imagem-filme {
+    width: 350px;
+    height: 530px;
+    border-radius: 20px;
+    box-shadow: rgba(22, 3, 3, 0.7) 0px 7px 20px 0px;
+}
+
+.filme .descricao {
+    background-color: rgba(255, 255, 256, 1);
+    border-radius: 10px;
+    box-shadow: rgba(22, 3, 3, 0.7) 0px 7px 20px 0px;
+}
+
+.filme .descricao .titulo {
+    background-color: #333;
+    color: #f1ecff;
+    font-size: 15px;
+    padding: 12px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.filme .descricao .texto {
+    font-size: 14px;
+    padding: 12px;
+    text-align: justify;
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+
+
